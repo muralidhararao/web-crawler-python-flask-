@@ -27,7 +27,7 @@ try:<br>
 
 page = urllib2.urlopen("https://.....")<br>
 
-<h4>Make soup with html.parser</h4>
+<h4>Make a soup with html.parser</h4>
 
 soup = BeautifulSoup(page,'html.parser')
 
