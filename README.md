@@ -35,3 +35,5 @@ soup = BeautifulSoup(page,'html.parser')
 
 for links in soup.findAll("a"):
 	aray.append(links.href)
+
+ <a href="https://github.com/muralidhararao/web-crawler-python-flask-/web-crawler.py">Get code from</a>
